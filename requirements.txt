@@ -1,0 +1,15 @@
+# Pinned versions of the packages imported by the scripts.
+# Inference / weights-identification stack: versions read from inference/venv_freeze.txt
+torch==2.7.1+cu128        # inference/score_*.py, verify_unbatched.py, weights_identification/ident.py (image-provided; on PyPI use the cu128 index)
+transformers==4.50.3
+huggingface_hub==0.36.2
+safetensors==0.8.0
+pyarrow==26.0.1
+pandas==3.1.1
+numpy==2.2.6              # version taken from the wheel file name in venv_freeze.txt
+zstandard==0.23.0         # data_counts/stage2/scan_dolmino_letters_v2.py
+# Not in venv_freeze.txt: versions below are those of the environment in which analysis/analyze.py was verified
+scipy==1.17.1             # analysis/analyze.py
+requests==2.34.2          # prompts/build_prompts.py (freeze lists requests only as a conda build without a version)
+# orjson is an optional import in scan_dolmino_letters_v2.py (falls back to json); not installed in the verification environment, not pinned.
+# NOTE: analysis/analyze.py was verified with pandas 2.3.3, numpy 2.4.6, pyarrow 25.0.0 (Python 3.11.17), not with the pins above.
