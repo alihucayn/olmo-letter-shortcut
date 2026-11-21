@@ -1,0 +1,554 @@
+{
+ "revisions": {
+  "main": "main",
+  "i1": "stage2-ingredient1-step23852-tokens51B",
+  "i2": "stage2-ingredient2-step23852-tokens51B",
+  "i3": "stage2-ingredient3-step23852-tokens51B",
+  "s1": "stage1-step1907359-tokens4001B"
+ },
+ "n_tensors_main": 179,
+ "n_params_main": 1484916736,
+ "dtypes_main": [
+  "F32"
+ ],
+ "same_keys_shapes_dtypes_main_vs_i1": {
+  "keys": true,
+  "shapes": true,
+  "dtypes": true
+ },
+ "same_keys_shapes_dtypes_main_vs_i2": {
+  "keys": true,
+  "shapes": true,
+  "dtypes": true
+ },
+ "same_keys_shapes_dtypes_main_vs_i3": {
+  "keys": true,
+  "shapes": true,
+  "dtypes": true
+ },
+ "same_keys_shapes_dtypes_main_vs_s1": {
+  "keys": true,
+  "shapes": true,
+  "dtypes": true
+ },
+ "main_vs": {
+  "i1": {
+   "max_abs_diff": 5.9818283221829915,
+   "mean_abs_diff": 0.06487492026442718,
+   "rel_L2": 1.5054362219083315,
+   "n_tensors_exactly_equal": 0,
+   "n_tensors": 179,
+   "top3_tensors_by_max_diff": [
+    [
+     "model.layers.6.self_attn.k_norm.weight",
+     5.9818283221829915
+    ],
+    [
+     "model.layers.5.self_attn.k_norm.weight",
+     4.2466864585876465
+    ],
+    [
+     "model.layers.2.self_attn.k_norm.weight",
+     4.242156620181049
+    ]
+   ],
+   "min_tensor_max_diff": [
+    "model.layers.2.post_attention_layernorm.weight",
+    0.10414456948637962
+   ]
+  },
+  "i2": {
+   "max_abs_diff": 5.9817827056367605,
+   "mean_abs_diff": 0.06487502297231938,
+   "rel_L2": 1.5054360677481076,
+   "n_tensors_exactly_equal": 0,
+   "n_tensors": 179,
+   "top3_tensors_by_max_diff": [
+    [
+     "model.layers.6.self_attn.k_norm.weight",
+     5.9817827056367605
+    ],
+    [
+     "model.layers.5.self_attn.k_norm.weight",
+     4.247585892677307
+    ],
+    [
+     "model.layers.2.self_attn.k_norm.weight",
+     4.242209997653845
+    ]
+   ],
+   "min_tensor_max_diff": [
+    "model.layers.2.post_attention_layernorm.weight",
+    0.10442979261279106
+   ]
+  },
+  "i3": {
+   "max_abs_diff": 5.9817982434983605,
+   "mean_abs_diff": 0.06487502870049419,
+   "rel_L2": 1.5054359233714418,
+   "n_tensors_exactly_equal": 0,
+   "n_tensors": 179,
+   "top3_tensors_by_max_diff": [
+    [
+     "model.layers.6.self_attn.k_norm.weight",
+     5.9817982434983605
+    ],
+    [
+     "model.layers.5.self_attn.k_norm.weight",
+     4.246132910251617
+    ],
+    [
+     "model.layers.2.self_attn.k_norm.weight",
+     4.241870388243115
+    ]
+   ],
+   "min_tensor_max_diff": [
+    "model.layers.2.post_attention_layernorm.weight",
+    0.10457062721252441
+   ]
+  },
+  "s1": {
+   "max_abs_diff": 5.9816938250514795,
+   "mean_abs_diff": 0.06505760965955436,
+   "rel_L2": 1.5042462907553136,
+   "n_tensors_exactly_equal": 0,
+   "n_tensors": 179,
+   "top3_tensors_by_max_diff": [
+    [
+     "model.layers.6.self_attn.k_norm.weight",
+     5.9816938250514795
+    ],
+    [
+     "model.layers.2.self_attn.k_norm.weight",
+     4.242825033317786
+    ],
+    [
+     "model.layers.5.self_attn.k_norm.weight",
+     4.238121926784515
+    ]
+   ],
+   "min_tensor_max_diff": [
+    "model.layers.2.post_attention_layernorm.weight",
+    0.10342537984251976
+   ]
+  },
+  "avg_i1_i2_i3": {
+   "max_abs_diff": 5.981803090439371,
+   "mean_abs_diff": 0.06485187535563468,
+   "rel_L2": 1.5056186486977634,
+   "n_tensors_exactly_equal": 0,
+   "n_tensors": 179,
+   "top3_tensors_by_max_diff": [
+    [
+     "model.layers.6.self_attn.k_norm.weight",
+     5.981803090439371
+    ],
+    [
+     "model.layers.5.self_attn.k_norm.weight",
+     4.246801753838857
+    ],
+    [
+     "model.layers.2.self_attn.k_norm.weight",
+     4.242079002026003
+    ]
+   ],
+   "min_tensor_max_diff": [
+    "model.layers.2.post_attention_layernorm.weight",
+    0.10438166310389838
+   ]
+  },
+  "avg_i1_i2": {
+   "max_abs_diff": 5.981805513909876,
+   "mean_abs_diff": 0.06485759620200003,
+   "rel_L2": 1.5055733222444214,
+   "n_tensors_exactly_equal": 0,
+   "n_tensors": 179,
+   "top3_tensors_by_max_diff": [
+    [
+     "model.layers.6.self_attn.k_norm.weight",
+     5.981805513909876
+    ],
+    [
+     "model.layers.5.self_attn.k_norm.weight",
+     4.247136175632477
+    ],
+    [
+     "model.layers.2.self_attn.k_norm.weight",
+     4.242183308917447
+    ]
+   ],
+   "min_tensor_max_diff": [
+    "model.layers.2.post_attention_layernorm.weight",
+    0.10428718104958534
+   ]
+  },
+  "avg_i1_i3": {
+   "max_abs_diff": 5.981813282840676,
+   "mean_abs_diff": 0.06485767577236082,
+   "rel_L2": 1.5055728246567521,
+   "n_tensors_exactly_equal": 0,
+   "n_tensors": 179,
+   "top3_tensors_by_max_diff": [
+    [
+     "model.layers.6.self_attn.k_norm.weight",
+     5.981813282840676
+    ],
+    [
+     "model.layers.5.self_attn.k_norm.weight",
+     4.246409684419632
+    ],
+    [
+     "model.layers.2.self_attn.k_norm.weight",
+     4.242013504212082
+    ]
+   ],
+   "min_tensor_max_diff": [
+    "model.layers.2.post_attention_layernorm.weight",
+    0.10435759834945202
+   ]
+  },
+  "avg_i2_i3": {
+   "max_abs_diff": 5.9817904745675605,
+   "mean_abs_diff": 0.06485770075972198,
+   "rel_L2": 1.5055728275747995,
+   "n_tensors_exactly_equal": 0,
+   "n_tensors": 179,
+   "top3_tensors_by_max_diff": [
+    [
+     "model.layers.6.self_attn.k_norm.weight",
+     5.9817904745675605
+    ],
+    [
+     "model.layers.5.self_attn.k_norm.weight",
+     4.246859401464462
+    ],
+    [
+     "model.layers.2.self_attn.k_norm.weight",
+     4.24204019294848
+    ]
+   ],
+   "min_tensor_max_diff": [
+    "model.layers.2.post_attention_layernorm.weight",
+    0.10450020991265774
+   ]
+  }
+ },
+ "one_tensor_scan": {
+  "tensor": "model.layers.8.self_attn.k_proj.weight",
+  "shape": [
+   2048,
+   2048
+  ],
+  "ingredient3_branches": {
+   "stage2-ingredient3-step1000-tokens3B": {
+    "max_abs_diff_vs_main": 0.4769263006746769,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step2000-tokens5B": {
+    "max_abs_diff_vs_main": 0.4742642678320408,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step3000-tokens7B": {
+    "max_abs_diff_vs_main": 0.4715341366827488,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step4000-tokens9B": {
+    "max_abs_diff_vs_main": 0.47022003307938576,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step5000-tokens11B": {
+    "max_abs_diff_vs_main": 0.4691200889647007,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step6000-tokens13B": {
+    "max_abs_diff_vs_main": 0.46817583218216896,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step7000-tokens15B": {
+    "max_abs_diff_vs_main": 0.46695104613900185,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step8000-tokens17B": {
+    "max_abs_diff_vs_main": 0.4657905735075474,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step9000-tokens19B": {
+    "max_abs_diff_vs_main": 0.46472663059830666,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step10000-tokens21B": {
+    "max_abs_diff_vs_main": 0.4643388129770756,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step11000-tokens24B": {
+    "max_abs_diff_vs_main": 0.46291619911789894,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step12000-tokens26B": {
+    "max_abs_diff_vs_main": 0.4626411832869053,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step13000-tokens28B": {
+    "max_abs_diff_vs_main": 0.46152958646416664,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step14000-tokens30B": {
+    "max_abs_diff_vs_main": 0.46068957820534706,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step15000-tokens32B": {
+    "max_abs_diff_vs_main": 0.4604709781706333,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step16000-tokens34B": {
+    "max_abs_diff_vs_main": 0.46035898104310036,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step17000-tokens36B": {
+    "max_abs_diff_vs_main": 0.4598071910440922,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step18000-tokens38B": {
+    "max_abs_diff_vs_main": 0.4594155587255955,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step19000-tokens40B": {
+    "max_abs_diff_vs_main": 0.4590148665010929,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step20000-tokens42B": {
+    "max_abs_diff_vs_main": 0.46009184420108795,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step21000-tokens45B": {
+    "max_abs_diff_vs_main": 0.4599270075559616,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step22000-tokens47B": {
+    "max_abs_diff_vs_main": 0.4598020762205124,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step23000-tokens49B": {
+    "max_abs_diff_vs_main": 0.4598311334848404,
+    "dtype": "F32"
+   },
+   "stage2-ingredient3-step23852-tokens51B": {
+    "max_abs_diff_vs_main": 0.45988811552524567,
+    "dtype": "F32"
+   }
+  },
+  "n_branches": 24,
+  "any_exact_match": []
+ },
+ "file_hash_check": {
+  "safetensors_sha256_main": {
+   "model-00001-of-00002.safetensors": "c52e4ac8bf4867e698d908f9e8c2b84aa891b91dff066d46bf2a7cf453ad77fb",
+   "model-00002-of-00002.safetensors": "5f80762572fe28aca49b01b98895d96ca529b9792fc10925a977a161ad768d30"
+  },
+  "safetensors_sizes_main": {
+   "model-00001-of-00002.safetensors": 4983360992,
+   "model-00002-of-00002.safetensors": 956326560
+  },
+  "nonweight_files_identical_to_all_4_ends": true,
+  "nonweight_files_checked": [
+   ".gitattributes",
+   "config.json",
+   "generation_config.json",
+   "merges.txt",
+   "model.safetensors.index.json",
+   "special_tokens_map.json",
+   "tokenizer.json",
+   "tokenizer_config.json",
+   "vocab.json"
+  ],
+  "main_shard_hash_matches_any_of_72_stage2_branches": []
+ },
+ "main_commit": "a1847dff35000b4271fa70afc5db10fd29fedbdf",
+ "main_commit_history": [
+  {
+   "id": "a1847dff35",
+   "date": "2025-05-28T20:35:45.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "1352aa4026",
+   "date": "2025-04-30T21:53:28.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "5af071bd31",
+   "date": "2025-04-30T21:51:47.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "f941e23afb",
+   "date": "2025-04-30T21:50:05.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "e85cd76e8d",
+   "date": "2025-04-30T21:43:24.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "13cece9360",
+   "date": "2025-04-30T21:42:02.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "d35cfb77eb",
+   "date": "2025-04-30T20:37:49.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "b7d77c374e",
+   "date": "2025-04-30T20:25:05.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "86e0fd6b05",
+   "date": "2025-04-29T21:17:50.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "58dc3e95f4",
+   "date": "2025-04-29T21:08:56.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "183c6d16ba",
+   "date": "2025-04-29T18:51:11.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "2a88c6313d",
+   "date": "2025-04-29T05:12:25.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "b12e99084e",
+   "date": "2025-04-28T23:45:15.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "0c197612b4",
+   "date": "2025-04-28T23:44:35.000Z",
+   "title": "Update README.md"
+  },
+  {
+   "id": "fc924f1da4",
+   "date": "2025-04-28T23:43:14.000Z",
+   "title": "Create README.md"
+  },
+  {
+   "id": "fc6f527900",
+   "date": "2025-04-17T22:46:02.000Z",
+   "title": "Add files using upload-large-folder tool"
+  },
+  {
+   "id": "67a53cd04f",
+   "date": "2025-04-17T22:45:47.000Z",
+   "title": "initial commit"
+  }
+ ],
+ "readme_quotes": [
+  "For checkpoints with ingredients of the soup, the naming convention is `stage2-ingredientN-stepXXX-tokensYYYB`",
+  "1B Model: only 1 version is trained on a 50B mix (ingredient 3), we did not merge.",
+  "Ingredients 1 and 2 are just exploratory runs."
+ ],
+ "calibration_two_tensors_pairwise_relL2": {
+  "revs": {
+   "main": "main",
+   "s1_first": "stage1-step0-tokens0B",
+   "s1_mid": "stage1-step940000-tokens1972B",
+   "s1_last": "stage1-step1907359-tokens4001B",
+   "i1_end": "stage2-ingredient1-step23852-tokens51B",
+   "i3_end": "stage2-ingredient3-step23852-tokens51B"
+  },
+  "model.layers.8.self_attn.k_proj.weight": {
+   "main|s1_first": 2.0035,
+   "main|s1_mid": 1.4709,
+   "main|s1_last": 2.1928,
+   "main|i1_end": 2.2596,
+   "main|i3_end": 2.2594,
+   "s1_first|s1_mid": 1.1735,
+   "s1_first|s1_last": 1.501,
+   "s1_first|i1_end": 1.5334,
+   "s1_first|i3_end": 1.5334,
+   "s1_mid|s1_last": 1.3356,
+   "s1_mid|i1_end": 1.4154,
+   "s1_mid|i3_end": 1.4153,
+   "s1_last|i1_end": 0.2905,
+   "s1_last|i3_end": 0.2905,
+   "i1_end|i3_end": 0.1735
+  },
+  "model.layers.8.self_attn.k_proj.weight_norms": {
+   "main": 70.15,
+   "s1_first": 40.41,
+   "s1_mid": 65.023,
+   "s1_last": 35.947,
+   "i1_end": 34.621,
+   "i3_end": 34.623
+  },
+  "model.layers.8.self_attn.k_proj.weight_cos_main_vs": {
+   "s1_first": -0.0002,
+   "s1_mid": 0.0001,
+   "s1_last": -0.0,
+   "i1_end": 0.0,
+   "i3_end": 0.0001
+  },
+  "model.layers.6.self_attn.k_norm.weight": {
+   "main|s1_first": 0.3594,
+   "main|s1_mid": 0.6548,
+   "main|s1_last": 0.6499,
+   "main|i1_end": 0.6508,
+   "main|i3_end": 0.6507,
+   "s1_first|s1_mid": 0.4884,
+   "s1_first|s1_last": 0.4815,
+   "s1_first|i1_end": 0.4813,
+   "s1_first|i3_end": 0.4812,
+   "s1_mid|s1_last": 0.1342,
+   "s1_mid|i1_end": 0.1368,
+   "s1_mid|i3_end": 0.1368,
+   "s1_last|i1_end": 0.0096,
+   "s1_last|i3_end": 0.0096,
+   "i1_end|i3_end": 0.0018
+  },
+  "model.layers.6.self_attn.k_norm.weight_norms": {
+   "main": 52.095,
+   "s1_first": 45.253,
+   "s1_mid": 42.612,
+   "s1_last": 42.499,
+   "i1_end": 42.387,
+   "i3_end": 42.394
+  },
+  "model.layers.6.self_attn.k_norm.weight_cos_main_vs": {
+   "s1_first": 0.9538,
+   "s1_mid": 0.8449,
+   "s1_last": 0.8485,
+   "i1_end": 0.8491,
+   "i3_end": 0.849
+  }
+ },
+ "permutation_check_main_vs_i3_end": {
+  "model.layers.8.self_attn.k_proj.weight": {
+   "cos_flat": 0.0001,
+   "row_best_abs_cos_median": 0.0781,
+   "row_best_abs_cos_min": 0.0617,
+   "col_best_abs_cos_median": 0.0848
+  },
+  "model.layers.8.self_attn.v_proj.weight": {
+   "cos_flat": -0.0006,
+   "row_best_abs_cos_median": 0.0791,
+   "row_best_abs_cos_min": 0.0615,
+   "col_best_abs_cos_median": 0.0793
+  },
+  "model.layers.8.self_attn.o_proj.weight": {
+   "cos_flat": -0.0004,
+   "row_best_abs_cos_median": 0.0796,
+   "row_best_abs_cos_min": 0.0635,
+   "col_best_abs_cos_median": 0.0788
+  }
+ },
+ "verdict": "none: main matches no tested checkpoint, average or row/column permutation; cos(main, any checkpoint incl. step0) ~0 on attention weights, while released checkpoints share one lineage (s1_last vs i3_end relL2 0.29 on k_proj)"
+}
