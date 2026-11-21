@@ -1,0 +1,225 @@
+family,pattern,variant,label,label_set,token_ids,tokens,count,exact_or_approx,check_status,primary_flag
+T1,Answer: A\n,sp,A,letters,"[673, 29901, 319, 13]","[""▁Answer"", "":"", ""▁A"", ""<0x0A>""]",171896,exact,"ok: sampled contexts are MCQ answer keys (exam dumps, quizzes)",True
+T1,Answer: A\n,nosp,A,letters,"[22550, 29901, 319, 13]","[""Answer"", "":"", ""▁A"", ""<0x0A>""]",812033,exact,"ok: sampled contexts are MCQ answer keys (exam dumps, quizzes)",True
+T1,Answer: B\n,sp,B,letters,"[673, 29901, 350, 13]","[""▁Answer"", "":"", ""▁B"", ""<0x0A>""]",166876,exact,"ok: sampled contexts are MCQ answer keys (exam dumps, quizzes)",True
+T1,Answer: B\n,nosp,B,letters,"[22550, 29901, 350, 13]","[""Answer"", "":"", ""▁B"", ""<0x0A>""]",759792,exact,"ok: sampled contexts are MCQ answer keys (exam dumps, quizzes)",True
+T1,Answer: C\n,sp,C,letters,"[673, 29901, 315, 13]","[""▁Answer"", "":"", ""▁C"", ""<0x0A>""]",161206,exact,"ok: sampled contexts are MCQ answer keys (exam dumps, quizzes)",True
+T1,Answer: C\n,nosp,C,letters,"[22550, 29901, 315, 13]","[""Answer"", "":"", ""▁C"", ""<0x0A>""]",764716,exact,"ok: sampled contexts are MCQ answer keys (exam dumps, quizzes)",True
+T1,Answer: D\n,sp,D,letters,"[673, 29901, 360, 13]","[""▁Answer"", "":"", ""▁D"", ""<0x0A>""]",146933,exact,"ok: sampled contexts are MCQ answer keys (exam dumps, quizzes)",True
+T1,Answer: D\n,nosp,D,letters,"[22550, 29901, 360, 13]","[""Answer"", "":"", ""▁D"", ""<0x0A>""]",675560,exact,"ok: sampled contexts are MCQ answer keys (exam dumps, quizzes)",True
+T1,Answer: 1\n,sp,1,digits,"[673, 29901, 29871, 29896, 13]","[""▁Answer"", "":"", ""▁"", ""1"", ""<0x0A>""]",19432,exact,"FLAG: sp variant dominated by forum template 'View: N\xa0 Answer: <n>' (answer count): nbsp-preceded matches 1:17127/19432, 2:3110/5450, 3:541/3001, 4:153/2507; nosp variant mostly MCQ answer keys",True
+T1,Answer: 1\n,nosp,1,digits,"[22550, 29901, 29871, 29896, 13]","[""Answer"", "":"", ""▁"", ""1"", ""<0x0A>""]",32609,exact,"FLAG: sp variant dominated by forum template 'View: N\xa0 Answer: <n>' (answer count): nbsp-preceded matches 1:17127/19432, 2:3110/5450, 3:541/3001, 4:153/2507; nosp variant mostly MCQ answer keys",True
+T1,Answer: 2\n,sp,2,digits,"[673, 29901, 29871, 29906, 13]","[""▁Answer"", "":"", ""▁"", ""2"", ""<0x0A>""]",5450,exact,"FLAG: sp variant dominated by forum template 'View: N\xa0 Answer: <n>' (answer count): nbsp-preceded matches 1:17127/19432, 2:3110/5450, 3:541/3001, 4:153/2507; nosp variant mostly MCQ answer keys",True
+T1,Answer: 2\n,nosp,2,digits,"[22550, 29901, 29871, 29906, 13]","[""Answer"", "":"", ""▁"", ""2"", ""<0x0A>""]",39127,exact,"FLAG: sp variant dominated by forum template 'View: N\xa0 Answer: <n>' (answer count): nbsp-preceded matches 1:17127/19432, 2:3110/5450, 3:541/3001, 4:153/2507; nosp variant mostly MCQ answer keys",True
+T1,Answer: 3\n,sp,3,digits,"[673, 29901, 29871, 29941, 13]","[""▁Answer"", "":"", ""▁"", ""3"", ""<0x0A>""]",3001,exact,"FLAG: sp variant dominated by forum template 'View: N\xa0 Answer: <n>' (answer count): nbsp-preceded matches 1:17127/19432, 2:3110/5450, 3:541/3001, 4:153/2507; nosp variant mostly MCQ answer keys",True
+T1,Answer: 3\n,nosp,3,digits,"[22550, 29901, 29871, 29941, 13]","[""Answer"", "":"", ""▁"", ""3"", ""<0x0A>""]",35294,exact,"FLAG: sp variant dominated by forum template 'View: N\xa0 Answer: <n>' (answer count): nbsp-preceded matches 1:17127/19432, 2:3110/5450, 3:541/3001, 4:153/2507; nosp variant mostly MCQ answer keys",True
+T1,Answer: 4\n,sp,4,digits,"[673, 29901, 29871, 29946, 13]","[""▁Answer"", "":"", ""▁"", ""4"", ""<0x0A>""]",2507,exact,"FLAG: sp variant dominated by forum template 'View: N\xa0 Answer: <n>' (answer count): nbsp-preceded matches 1:17127/19432, 2:3110/5450, 3:541/3001, 4:153/2507; nosp variant mostly MCQ answer keys",True
+T1,Answer: 4\n,nosp,4,digits,"[22550, 29901, 29871, 29946, 13]","[""Answer"", "":"", ""▁"", ""4"", ""<0x0A>""]",31489,exact,"FLAG: sp variant dominated by forum template 'View: N\xa0 Answer: <n>' (answer count): nbsp-preceded matches 1:17127/19432, 2:3110/5450, 3:541/3001, 4:153/2507; nosp variant mostly MCQ answer keys",True
+T2,answer is A\n,sp,A,letters,"[1234, 338, 319, 13]","[""▁answer"", ""▁is"", ""▁A"", ""<0x0A>""]",7759,exact,ok: mostly answer statements for options (some forum/discussion use),True
+T2,answer is A\n,nosp,A,letters,"[12011, 338, 319, 13]","[""answer"", ""▁is"", ""▁A"", ""<0x0A>""]",273,exact,ok: mostly answer statements for options (some forum/discussion use),True
+T2,answer is B\n,sp,B,letters,"[1234, 338, 350, 13]","[""▁answer"", ""▁is"", ""▁B"", ""<0x0A>""]",9408,exact,ok: mostly answer statements for options (some forum/discussion use),True
+T2,answer is B\n,nosp,B,letters,"[12011, 338, 350, 13]","[""answer"", ""▁is"", ""▁B"", ""<0x0A>""]",398,exact,ok: mostly answer statements for options (some forum/discussion use),True
+T2,answer is C\n,sp,C,letters,"[1234, 338, 315, 13]","[""▁answer"", ""▁is"", ""▁C"", ""<0x0A>""]",8476,exact,ok: mostly answer statements for options (some forum/discussion use),True
+T2,answer is C\n,nosp,C,letters,"[12011, 338, 315, 13]","[""answer"", ""▁is"", ""▁C"", ""<0x0A>""]",205,exact,ok: mostly answer statements for options (some forum/discussion use),True
+T2,answer is D\n,sp,D,letters,"[1234, 338, 360, 13]","[""▁answer"", ""▁is"", ""▁D"", ""<0x0A>""]",6486,exact,ok: mostly answer statements for options (some forum/discussion use),True
+T2,answer is D\n,nosp,D,letters,"[12011, 338, 360, 13]","[""answer"", ""▁is"", ""▁D"", ""<0x0A>""]",314,exact,ok: mostly answer statements for options (some forum/discussion use),True
+T2,answer is 1\n,sp,1,digits,"[1234, 338, 29871, 29896, 13]","[""▁answer"", ""▁is"", ""▁"", ""1"", ""<0x0A>""]",1541,exact,"FLAG: numeric answers (math/puzzles), not option labels (L2)",True
+T2,answer is 1\n,nosp,1,digits,"[12011, 338, 29871, 29896, 13]","[""answer"", ""▁is"", ""▁"", ""1"", ""<0x0A>""]",100,exact,"FLAG: numeric answers (math/puzzles), not option labels (L2)",True
+T2,answer is 2\n,sp,2,digits,"[1234, 338, 29871, 29906, 13]","[""▁answer"", ""▁is"", ""▁"", ""2"", ""<0x0A>""]",1303,exact,"FLAG: numeric answers (math/puzzles), not option labels (L2)",True
+T2,answer is 2\n,nosp,2,digits,"[12011, 338, 29871, 29906, 13]","[""answer"", ""▁is"", ""▁"", ""2"", ""<0x0A>""]",65,exact,"FLAG: numeric answers (math/puzzles), not option labels (L2)",True
+T2,answer is 3\n,sp,3,digits,"[1234, 338, 29871, 29941, 13]","[""▁answer"", ""▁is"", ""▁"", ""3"", ""<0x0A>""]",1414,exact,"FLAG: numeric answers (math/puzzles), not option labels (L2)",True
+T2,answer is 3\n,nosp,3,digits,"[12011, 338, 29871, 29941, 13]","[""answer"", ""▁is"", ""▁"", ""3"", ""<0x0A>""]",29,exact,"FLAG: numeric answers (math/puzzles), not option labels (L2)",True
+T2,answer is 4\n,sp,4,digits,"[1234, 338, 29871, 29946, 13]","[""▁answer"", ""▁is"", ""▁"", ""4"", ""<0x0A>""]",987,exact,"FLAG: numeric answers (math/puzzles), not option labels (L2)",True
+T2,answer is 4\n,nosp,4,digits,"[12011, 338, 29871, 29946, 13]","[""answer"", ""▁is"", ""▁"", ""4"", ""<0x0A>""]",24,exact,"FLAG: numeric answers (math/puzzles), not option labels (L2)",True
+T3,answer is A.\n,sp,A,letters,"[1234, 338, 319, 29889, 13]","[""▁answer"", ""▁is"", ""▁A"", ""."", ""<0x0A>""]",15878,exact,ok: mostly 'The correct answer is X.' after options,True
+T3,answer is A.\n,nosp,A,letters,"[12011, 338, 319, 29889, 13]","[""answer"", ""▁is"", ""▁A"", ""."", ""<0x0A>""]",33,exact,ok: mostly 'The correct answer is X.' after options,True
+T3,answer is B.\n,sp,B,letters,"[1234, 338, 350, 29889, 13]","[""▁answer"", ""▁is"", ""▁B"", ""."", ""<0x0A>""]",19390,exact,ok: mostly 'The correct answer is X.' after options,True
+T3,answer is B.\n,nosp,B,letters,"[12011, 338, 350, 29889, 13]","[""answer"", ""▁is"", ""▁B"", ""."", ""<0x0A>""]",32,exact,ok: mostly 'The correct answer is X.' after options,True
+T3,answer is C.\n,sp,C,letters,"[1234, 338, 315, 29889, 13]","[""▁answer"", ""▁is"", ""▁C"", ""."", ""<0x0A>""]",19566,exact,ok: mostly 'The correct answer is X.' after options,True
+T3,answer is C.\n,nosp,C,letters,"[12011, 338, 315, 29889, 13]","[""answer"", ""▁is"", ""▁C"", ""."", ""<0x0A>""]",60,exact,ok: mostly 'The correct answer is X.' after options,True
+T3,answer is D.\n,sp,D,letters,"[1234, 338, 360, 29889, 13]","[""▁answer"", ""▁is"", ""▁D"", ""."", ""<0x0A>""]",16497,exact,ok: mostly 'The correct answer is X.' after options,True
+T3,answer is D.\n,nosp,D,letters,"[12011, 338, 360, 29889, 13]","[""answer"", ""▁is"", ""▁D"", ""."", ""<0x0A>""]",61,exact,ok: mostly 'The correct answer is X.' after options,True
+T3,answer is 1.\n,sp,1,digits,"[1234, 338, 29871, 29896, 29889, 13]","[""▁answer"", ""▁is"", ""▁"", ""1"", ""."", ""<0x0A>""]",7531,exact,FLAG: mostly numeric answers; some option numbers,True
+T3,answer is 1.\n,nosp,1,digits,"[12011, 338, 29871, 29896, 29889, 13]","[""answer"", ""▁is"", ""▁"", ""1"", ""."", ""<0x0A>""]",15,exact,FLAG: mostly numeric answers; some option numbers,True
+T3,answer is 2.\n,sp,2,digits,"[1234, 338, 29871, 29906, 29889, 13]","[""▁answer"", ""▁is"", ""▁"", ""2"", ""."", ""<0x0A>""]",6117,exact,FLAG: mostly numeric answers; some option numbers,True
+T3,answer is 2.\n,nosp,2,digits,"[12011, 338, 29871, 29906, 29889, 13]","[""answer"", ""▁is"", ""▁"", ""2"", ""."", ""<0x0A>""]",5,exact,FLAG: mostly numeric answers; some option numbers,True
+T3,answer is 3.\n,sp,3,digits,"[1234, 338, 29871, 29941, 29889, 13]","[""▁answer"", ""▁is"", ""▁"", ""3"", ""."", ""<0x0A>""]",5528,exact,FLAG: mostly numeric answers; some option numbers,True
+T3,answer is 3.\n,nosp,3,digits,"[12011, 338, 29871, 29941, 29889, 13]","[""answer"", ""▁is"", ""▁"", ""3"", ""."", ""<0x0A>""]",20,exact,FLAG: mostly numeric answers; some option numbers,True
+T3,answer is 4.\n,sp,4,digits,"[1234, 338, 29871, 29946, 29889, 13]","[""▁answer"", ""▁is"", ""▁"", ""4"", ""."", ""<0x0A>""]",4588,exact,FLAG: mostly numeric answers; some option numbers,True
+T3,answer is 4.\n,nosp,4,digits,"[12011, 338, 29871, 29946, 29889, 13]","[""answer"", ""▁is"", ""▁"", ""4"", ""."", ""<0x0A>""]",4,exact,FLAG: mostly numeric answers; some option numbers,True
+T4,Answer: (A)\n,sp,A,letters,"[673, 29901, 313, 29909, 29897, 13]","[""▁Answer"", "":"", ""▁("", ""A"", "")"", ""<0x0A>""]",439,exact,ok: '(A)'-style MCQ answer keys,True
+T4,Answer: (A)\n,nosp,A,letters,"[22550, 29901, 313, 29909, 29897, 13]","[""Answer"", "":"", ""▁("", ""A"", "")"", ""<0x0A>""]",114816,exact,ok: '(A)'-style MCQ answer keys,True
+T4,Answer: (B)\n,sp,B,letters,"[673, 29901, 313, 29933, 29897, 13]","[""▁Answer"", "":"", ""▁("", ""B"", "")"", ""<0x0A>""]",739,exact,ok: '(A)'-style MCQ answer keys,True
+T4,Answer: (B)\n,nosp,B,letters,"[22550, 29901, 313, 29933, 29897, 13]","[""Answer"", "":"", ""▁("", ""B"", "")"", ""<0x0A>""]",133669,exact,ok: '(A)'-style MCQ answer keys,True
+T4,Answer: (C)\n,sp,C,letters,"[673, 29901, 313, 29907, 29897, 13]","[""▁Answer"", "":"", ""▁("", ""C"", "")"", ""<0x0A>""]",695,exact,ok: '(A)'-style MCQ answer keys,True
+T4,Answer: (C)\n,nosp,C,letters,"[22550, 29901, 313, 29907, 29897, 13]","[""Answer"", "":"", ""▁("", ""C"", "")"", ""<0x0A>""]",131129,exact,ok: '(A)'-style MCQ answer keys,True
+T4,Answer: (D)\n,sp,D,letters,"[673, 29901, 313, 29928, 29897, 13]","[""▁Answer"", "":"", ""▁("", ""D"", "")"", ""<0x0A>""]",467,exact,ok: '(A)'-style MCQ answer keys,True
+T4,Answer: (D)\n,nosp,D,letters,"[22550, 29901, 313, 29928, 29897, 13]","[""Answer"", "":"", ""▁("", ""D"", "")"", ""<0x0A>""]",113192,exact,ok: '(A)'-style MCQ answer keys,True
+T4,Answer: (1)\n,sp,1,digits,"[673, 29901, 313, 29896, 29897, 13]","[""▁Answer"", "":"", ""▁("", ""1"", "")"", ""<0x0A>""]",317,exact,ok: '(1)'-style MCQ answer keys,True
+T4,Answer: (1)\n,nosp,1,digits,"[22550, 29901, 313, 29896, 29897, 13]","[""Answer"", "":"", ""▁("", ""1"", "")"", ""<0x0A>""]",4031,exact,ok: '(1)'-style MCQ answer keys,True
+T4,Answer: (2)\n,sp,2,digits,"[673, 29901, 313, 29906, 29897, 13]","[""▁Answer"", "":"", ""▁("", ""2"", "")"", ""<0x0A>""]",260,exact,ok: '(1)'-style MCQ answer keys,True
+T4,Answer: (2)\n,nosp,2,digits,"[22550, 29901, 313, 29906, 29897, 13]","[""Answer"", "":"", ""▁("", ""2"", "")"", ""<0x0A>""]",4592,exact,ok: '(1)'-style MCQ answer keys,True
+T4,Answer: (3)\n,sp,3,digits,"[673, 29901, 313, 29941, 29897, 13]","[""▁Answer"", "":"", ""▁("", ""3"", "")"", ""<0x0A>""]",216,exact,ok: '(1)'-style MCQ answer keys,True
+T4,Answer: (3)\n,nosp,3,digits,"[22550, 29901, 313, 29941, 29897, 13]","[""Answer"", "":"", ""▁("", ""3"", "")"", ""<0x0A>""]",4600,exact,ok: '(1)'-style MCQ answer keys,True
+T4,Answer: (4)\n,sp,4,digits,"[673, 29901, 313, 29946, 29897, 13]","[""▁Answer"", "":"", ""▁("", ""4"", "")"", ""<0x0A>""]",134,exact,ok: '(1)'-style MCQ answer keys,True
+T4,Answer: (4)\n,nosp,4,digits,"[22550, 29901, 313, 29946, 29897, 13]","[""Answer"", "":"", ""▁("", ""4"", "")"", ""<0x0A>""]",3974,exact,ok: '(1)'-style MCQ answer keys,True
+T1dot,Answer: A.\n,sp,A,letters,"[673, 29901, 319, 29889, 13]","[""▁Answer"", "":"", ""▁A"", ""."", ""<0x0A>""]",795,exact,ok: MCQ answer keys,False
+T1dot,Answer: A.\n,nosp,A,letters,"[22550, 29901, 319, 29889, 13]","[""Answer"", "":"", ""▁A"", ""."", ""<0x0A>""]",5924,exact,ok: MCQ answer keys,False
+T1dot,Answer: B.\n,sp,B,letters,"[673, 29901, 350, 29889, 13]","[""▁Answer"", "":"", ""▁B"", ""."", ""<0x0A>""]",968,exact,ok: MCQ answer keys,False
+T1dot,Answer: B.\n,nosp,B,letters,"[22550, 29901, 350, 29889, 13]","[""Answer"", "":"", ""▁B"", ""."", ""<0x0A>""]",5877,exact,ok: MCQ answer keys,False
+T1dot,Answer: C.\n,sp,C,letters,"[673, 29901, 315, 29889, 13]","[""▁Answer"", "":"", ""▁C"", ""."", ""<0x0A>""]",1082,exact,ok: MCQ answer keys,False
+T1dot,Answer: C.\n,nosp,C,letters,"[22550, 29901, 315, 29889, 13]","[""Answer"", "":"", ""▁C"", ""."", ""<0x0A>""]",6038,exact,ok: MCQ answer keys,False
+T1dot,Answer: D.\n,sp,D,letters,"[673, 29901, 360, 29889, 13]","[""▁Answer"", "":"", ""▁D"", ""."", ""<0x0A>""]",784,exact,ok: MCQ answer keys,False
+T1dot,Answer: D.\n,nosp,D,letters,"[22550, 29901, 360, 29889, 13]","[""Answer"", "":"", ""▁D"", ""."", ""<0x0A>""]",4734,exact,ok: MCQ answer keys,False
+T1dot,Answer: 1.\n,sp,1,digits,"[673, 29901, 29871, 29896, 29889, 13]","[""▁Answer"", "":"", ""▁"", ""1"", ""."", ""<0x0A>""]",482,exact,mixed: answer keys and numeric/enumerated answers,False
+T1dot,Answer: 1.\n,nosp,1,digits,"[22550, 29901, 29871, 29896, 29889, 13]","[""Answer"", "":"", ""▁"", ""1"", ""."", ""<0x0A>""]",1025,exact,mixed: answer keys and numeric/enumerated answers,False
+T1dot,Answer: 2.\n,sp,2,digits,"[673, 29901, 29871, 29906, 29889, 13]","[""▁Answer"", "":"", ""▁"", ""2"", ""."", ""<0x0A>""]",375,exact,mixed: answer keys and numeric/enumerated answers,False
+T1dot,Answer: 2.\n,nosp,2,digits,"[22550, 29901, 29871, 29906, 29889, 13]","[""Answer"", "":"", ""▁"", ""2"", ""."", ""<0x0A>""]",758,exact,mixed: answer keys and numeric/enumerated answers,False
+T1dot,Answer: 3.\n,sp,3,digits,"[673, 29901, 29871, 29941, 29889, 13]","[""▁Answer"", "":"", ""▁"", ""3"", ""."", ""<0x0A>""]",360,exact,mixed: answer keys and numeric/enumerated answers,False
+T1dot,Answer: 3.\n,nosp,3,digits,"[22550, 29901, 29871, 29941, 29889, 13]","[""Answer"", "":"", ""▁"", ""3"", ""."", ""<0x0A>""]",752,exact,mixed: answer keys and numeric/enumerated answers,False
+T1dot,Answer: 4.\n,sp,4,digits,"[673, 29901, 29871, 29946, 29889, 13]","[""▁Answer"", "":"", ""▁"", ""4"", ""."", ""<0x0A>""]",151,exact,mixed: answer keys and numeric/enumerated answers,False
+T1dot,Answer: 4.\n,nosp,4,digits,"[22550, 29901, 29871, 29946, 29889, 13]","[""Answer"", "":"", ""▁"", ""4"", ""."", ""<0x0A>""]",658,exact,mixed: answer keys and numeric/enumerated answers,False
+P1,Answer: A,sp,A,letters,"[673, 29901, 319]","[""▁Answer"", "":"", ""▁A""]",464251,exact,ok-ish: sampled A contexts answer keys; unterminated so includes 'Answer: A...' prefixes of longer words,False
+P1,Answer: A,nosp,A,letters,"[22550, 29901, 319]","[""Answer"", "":"", ""▁A""]",1619595,exact,ok-ish: sampled A contexts answer keys; unterminated so includes 'Answer: A...' prefixes of longer words,False
+P1,Answer: B,sp,B,letters,"[673, 29901, 350]","[""▁Answer"", "":"", ""▁B""]",313951,exact,ok-ish: sampled A contexts answer keys; unterminated so includes 'Answer: A...' prefixes of longer words,False
+P1,Answer: B,nosp,B,letters,"[22550, 29901, 350]","[""Answer"", "":"", ""▁B""]",1122804,exact,ok-ish: sampled A contexts answer keys; unterminated so includes 'Answer: A...' prefixes of longer words,False
+P1,Answer: C,sp,C,letters,"[673, 29901, 315]","[""▁Answer"", "":"", ""▁C""]",282005,exact,ok-ish: sampled A contexts answer keys; unterminated so includes 'Answer: A...' prefixes of longer words,False
+P1,Answer: C,nosp,C,letters,"[22550, 29901, 315]","[""Answer"", "":"", ""▁C""]",1028395,exact,ok-ish: sampled A contexts answer keys; unterminated so includes 'Answer: A...' prefixes of longer words,False
+P1,Answer: D,sp,D,letters,"[673, 29901, 360]","[""▁Answer"", "":"", ""▁D""]",257317,exact,ok-ish: sampled A contexts answer keys; unterminated so includes 'Answer: A...' prefixes of longer words,False
+P1,Answer: D,nosp,D,letters,"[22550, 29901, 360]","[""Answer"", "":"", ""▁D""]",880463,exact,ok-ish: sampled A contexts answer keys; unterminated so includes 'Answer: A...' prefixes of longer words,False
+P1,Answer: 1,sp,1,digits,"[673, 29901, 29871, 29896]","[""▁Answer"", "":"", ""▁"", ""1""]",99130,exact,"FLAG: mostly numeric values starting with the digit (1905, 1981, 124, 1st)",False
+P1,Answer: 1,nosp,1,digits,"[22550, 29901, 29871, 29896]","[""Answer"", "":"", ""▁"", ""1""]",216623,exact,"FLAG: mostly numeric values starting with the digit (1905, 1981, 124, 1st)",False
+P1,Answer: 2,sp,2,digits,"[673, 29901, 29871, 29906]","[""▁Answer"", "":"", ""▁"", ""2""]",42816,exact,"FLAG: mostly numeric values starting with the digit (1905, 1981, 124, 1st)",False
+P1,Answer: 2,nosp,2,digits,"[22550, 29901, 29871, 29906]","[""Answer"", "":"", ""▁"", ""2""]",112434,exact,"FLAG: mostly numeric values starting with the digit (1905, 1981, 124, 1st)",False
+P1,Answer: 3,sp,3,digits,"[673, 29901, 29871, 29941]","[""▁Answer"", "":"", ""▁"", ""3""]",28866,exact,"FLAG: mostly numeric values starting with the digit (1905, 1981, 124, 1st)",False
+P1,Answer: 3,nosp,3,digits,"[22550, 29901, 29871, 29941]","[""Answer"", "":"", ""▁"", ""3""]",81420,exact,"FLAG: mostly numeric values starting with the digit (1905, 1981, 124, 1st)",False
+P1,Answer: 4,sp,4,digits,"[673, 29901, 29871, 29946]","[""▁Answer"", "":"", ""▁"", ""4""]",21232,exact,"FLAG: mostly numeric values starting with the digit (1905, 1981, 124, 1st)",False
+P1,Answer: 4,nosp,4,digits,"[22550, 29901, 29871, 29946]","[""Answer"", "":"", ""▁"", ""4""]",67119,exact,"FLAG: mostly numeric values starting with the digit (1905, 1981, 124, 1st)",False
+P1b,answer: A,sp,A,letters,"[1234, 29901, 319]","[""▁answer"", "":"", ""▁A""]",91604,exact,"FLAG: mostly word/article continuations ('answer: A headache', 'answer: BMW', 'answer: Coco')",False
+P1b,answer: A,nosp,A,letters,"[12011, 29901, 319]","[""answer"", "":"", ""▁A""]",1851,exact,"FLAG: mostly word/article continuations ('answer: A headache', 'answer: BMW', 'answer: Coco')",False
+P1b,answer: B,sp,B,letters,"[1234, 29901, 350]","[""▁answer"", "":"", ""▁B""]",22441,exact,"FLAG: mostly word/article continuations ('answer: A headache', 'answer: BMW', 'answer: Coco')",False
+P1b,answer: B,nosp,B,letters,"[12011, 29901, 350]","[""answer"", "":"", ""▁B""]",850,exact,"FLAG: mostly word/article continuations ('answer: A headache', 'answer: BMW', 'answer: Coco')",False
+P1b,answer: C,sp,C,letters,"[1234, 29901, 315]","[""▁answer"", "":"", ""▁C""]",28636,exact,"FLAG: mostly word/article continuations ('answer: A headache', 'answer: BMW', 'answer: Coco')",False
+P1b,answer: C,nosp,C,letters,"[12011, 29901, 315]","[""answer"", "":"", ""▁C""]",1058,exact,"FLAG: mostly word/article continuations ('answer: A headache', 'answer: BMW', 'answer: Coco')",False
+P1b,answer: D,sp,D,letters,"[1234, 29901, 360]","[""▁answer"", "":"", ""▁D""]",25034,exact,"FLAG: mostly word/article continuations ('answer: A headache', 'answer: BMW', 'answer: Coco')",False
+P1b,answer: D,nosp,D,letters,"[12011, 29901, 360]","[""answer"", "":"", ""▁D""]",1027,exact,"FLAG: mostly word/article continuations ('answer: A headache', 'answer: BMW', 'answer: Coco')",False
+P1b,answer: 1,sp,1,digits,"[1234, 29901, 29871, 29896]","[""▁answer"", "":"", ""▁"", ""1""]",77818,exact,FLAG: list numbering '1)' and numbers,False
+P1b,answer: 1,nosp,1,digits,"[12011, 29901, 29871, 29896]","[""answer"", "":"", ""▁"", ""1""]",4218,exact,FLAG: list numbering '1)' and numbers,False
+P1b,answer: 2,sp,2,digits,"[1234, 29901, 29871, 29906]","[""▁answer"", "":"", ""▁"", ""2""]",26918,exact,FLAG: list numbering '1)' and numbers,False
+P1b,answer: 2,nosp,2,digits,"[12011, 29901, 29871, 29906]","[""answer"", "":"", ""▁"", ""2""]",2161,exact,FLAG: list numbering '1)' and numbers,False
+P1b,answer: 3,sp,3,digits,"[1234, 29901, 29871, 29941]","[""▁answer"", "":"", ""▁"", ""3""]",19702,exact,FLAG: list numbering '1)' and numbers,False
+P1b,answer: 3,nosp,3,digits,"[12011, 29901, 29871, 29941]","[""answer"", "":"", ""▁"", ""3""]",1570,exact,FLAG: list numbering '1)' and numbers,False
+P1b,answer: 4,sp,4,digits,"[1234, 29901, 29871, 29946]","[""▁answer"", "":"", ""▁"", ""4""]",19222,exact,FLAG: list numbering '1)' and numbers,False
+P1b,answer: 4,nosp,4,digits,"[12011, 29901, 29871, 29946]","[""answer"", "":"", ""▁"", ""4""]",2046,exact,FLAG: list numbering '1)' and numbers,False
+P2,answer is A,sp,A,letters,"[1234, 338, 319]","[""▁answer"", ""▁is"", ""▁A""]",120946,exact,"FLAG: about half non-label (word starts 'A LOT', 'AIDS', 'BOTH', 'Daugavpils')",False
+P2,answer is A,nosp,A,letters,"[12011, 338, 319]","[""answer"", ""▁is"", ""▁A""]",667,exact,"FLAG: about half non-label (word starts 'A LOT', 'AIDS', 'BOTH', 'Daugavpils')",False
+P2,answer is B,sp,B,letters,"[1234, 338, 350]","[""▁answer"", ""▁is"", ""▁B""]",125899,exact,"FLAG: about half non-label (word starts 'A LOT', 'AIDS', 'BOTH', 'Daugavpils')",False
+P2,answer is B,nosp,B,letters,"[12011, 338, 350]","[""answer"", ""▁is"", ""▁B""]",678,exact,"FLAG: about half non-label (word starts 'A LOT', 'AIDS', 'BOTH', 'Daugavpils')",False
+P2,answer is C,sp,C,letters,"[1234, 338, 315]","[""▁answer"", ""▁is"", ""▁C""]",126171,exact,"FLAG: about half non-label (word starts 'A LOT', 'AIDS', 'BOTH', 'Daugavpils')",False
+P2,answer is C,nosp,C,letters,"[12011, 338, 315]","[""answer"", ""▁is"", ""▁C""]",630,exact,"FLAG: about half non-label (word starts 'A LOT', 'AIDS', 'BOTH', 'Daugavpils')",False
+P2,answer is D,sp,D,letters,"[1234, 338, 360]","[""▁answer"", ""▁is"", ""▁D""]",98974,exact,"FLAG: about half non-label (word starts 'A LOT', 'AIDS', 'BOTH', 'Daugavpils')",False
+P2,answer is D,nosp,D,letters,"[12011, 338, 360]","[""answer"", ""▁is"", ""▁D""]",760,exact,"FLAG: about half non-label (word starts 'A LOT', 'AIDS', 'BOTH', 'Daugavpils')",False
+P2,answer is 1,sp,1,digits,"[1234, 338, 29871, 29896]","[""▁answer"", ""▁is"", ""▁"", ""1""]",302893,exact,"FLAG: numeric values (1891, 12, 1/3)",False
+P2,answer is 1,nosp,1,digits,"[12011, 338, 29871, 29896]","[""answer"", ""▁is"", ""▁"", ""1""]",2186,exact,"FLAG: numeric values (1891, 12, 1/3)",False
+P2,answer is 2,sp,2,digits,"[1234, 338, 29871, 29906]","[""▁answer"", ""▁is"", ""▁"", ""2""]",158700,exact,"FLAG: numeric values (1891, 12, 1/3)",False
+P2,answer is 2,nosp,2,digits,"[12011, 338, 29871, 29906]","[""answer"", ""▁is"", ""▁"", ""2""]",972,exact,"FLAG: numeric values (1891, 12, 1/3)",False
+P2,answer is 3,sp,3,digits,"[1234, 338, 29871, 29941]","[""▁answer"", ""▁is"", ""▁"", ""3""]",106810,exact,"FLAG: numeric values (1891, 12, 1/3)",False
+P2,answer is 3,nosp,3,digits,"[12011, 338, 29871, 29941]","[""answer"", ""▁is"", ""▁"", ""3""]",891,exact,"FLAG: numeric values (1891, 12, 1/3)",False
+P2,answer is 4,sp,4,digits,"[1234, 338, 29871, 29946]","[""▁answer"", ""▁is"", ""▁"", ""4""]",118334,exact,"FLAG: numeric values (1891, 12, 1/3)",False
+P2,answer is 4,nosp,4,digits,"[12011, 338, 29871, 29946]","[""answer"", ""▁is"", ""▁"", ""4""]",659,exact,"FLAG: numeric values (1891, 12, 1/3)",False
+P2p,answer is (A),sp,A,letters,"[1234, 338, 313, 29909, 29897]","[""▁answer"", ""▁is"", ""▁("", ""A"", "")""]",2605,exact,"mixed: mostly labels, some '(A) yes, (B) no' enumerations",False
+P2p,answer is (A),nosp,A,letters,"[12011, 338, 313, 29909, 29897]","[""answer"", ""▁is"", ""▁("", ""A"", "")""]",0,exact,"mixed: mostly labels, some '(A) yes, (B) no' enumerations",False
+P2p,answer is (B),sp,B,letters,"[1234, 338, 313, 29933, 29897]","[""▁answer"", ""▁is"", ""▁("", ""B"", "")""]",2689,exact,"mixed: mostly labels, some '(A) yes, (B) no' enumerations",False
+P2p,answer is (B),nosp,B,letters,"[12011, 338, 313, 29933, 29897]","[""answer"", ""▁is"", ""▁("", ""B"", "")""]",7,exact,"mixed: mostly labels, some '(A) yes, (B) no' enumerations",False
+P2p,answer is (C),sp,C,letters,"[1234, 338, 313, 29907, 29897]","[""▁answer"", ""▁is"", ""▁("", ""C"", "")""]",2624,exact,"mixed: mostly labels, some '(A) yes, (B) no' enumerations",False
+P2p,answer is (C),nosp,C,letters,"[12011, 338, 313, 29907, 29897]","[""answer"", ""▁is"", ""▁("", ""C"", "")""]",7,exact,"mixed: mostly labels, some '(A) yes, (B) no' enumerations",False
+P2p,answer is (D),sp,D,letters,"[1234, 338, 313, 29928, 29897]","[""▁answer"", ""▁is"", ""▁("", ""D"", "")""]",2536,exact,"mixed: mostly labels, some '(A) yes, (B) no' enumerations",False
+P2p,answer is (D),nosp,D,letters,"[12011, 338, 313, 29928, 29897]","[""answer"", ""▁is"", ""▁("", ""D"", "")""]",25,exact,"mixed: mostly labels, some '(A) yes, (B) no' enumerations",False
+P2p,answer is (1),sp,1,digits,"[1234, 338, 313, 29896, 29897]","[""▁answer"", ""▁is"", ""▁("", ""1"", "")""]",3058,exact,FLAG: mostly prose enumerations '(1) ... (2) ...',False
+P2p,answer is (1),nosp,1,digits,"[12011, 338, 313, 29896, 29897]","[""answer"", ""▁is"", ""▁("", ""1"", "")""]",0,exact,FLAG: mostly prose enumerations '(1) ... (2) ...',False
+P2p,answer is (2),sp,2,digits,"[1234, 338, 313, 29906, 29897]","[""▁answer"", ""▁is"", ""▁("", ""2"", "")""]",1361,exact,FLAG: mostly prose enumerations '(1) ... (2) ...',False
+P2p,answer is (2),nosp,2,digits,"[12011, 338, 313, 29906, 29897]","[""answer"", ""▁is"", ""▁("", ""2"", "")""]",0,exact,FLAG: mostly prose enumerations '(1) ... (2) ...',False
+P2p,answer is (3),sp,3,digits,"[1234, 338, 313, 29941, 29897]","[""▁answer"", ""▁is"", ""▁("", ""3"", "")""]",1024,exact,FLAG: mostly prose enumerations '(1) ... (2) ...',False
+P2p,answer is (3),nosp,3,digits,"[12011, 338, 313, 29941, 29897]","[""answer"", ""▁is"", ""▁("", ""3"", "")""]",0,exact,FLAG: mostly prose enumerations '(1) ... (2) ...',False
+P2p,answer is (4),sp,4,digits,"[1234, 338, 313, 29946, 29897]","[""▁answer"", ""▁is"", ""▁("", ""4"", "")""]",915,exact,FLAG: mostly prose enumerations '(1) ... (2) ...',False
+P2p,answer is (4),nosp,4,digits,"[12011, 338, 313, 29946, 29897]","[""answer"", ""▁is"", ""▁("", ""4"", "")""]",0,exact,FLAG: mostly prose enumerations '(1) ... (2) ...',False
+P3a,correct answer is A,sp,A,letters,"[1959, 1234, 338, 319]","[""▁correct"", ""▁answer"", ""▁is"", ""▁A""]",41697,exact,ok: answer labels,False
+P3a,correct answer is A,nosp,A,letters,"[15728, 1234, 338, 319]","[""correct"", ""▁answer"", ""▁is"", ""▁A""]",573,exact,ok: answer labels,False
+P3a,correct answer is B,sp,B,letters,"[1959, 1234, 338, 350]","[""▁correct"", ""▁answer"", ""▁is"", ""▁B""]",45798,exact,ok: answer labels,False
+P3a,correct answer is B,nosp,B,letters,"[15728, 1234, 338, 350]","[""correct"", ""▁answer"", ""▁is"", ""▁B""]",666,exact,ok: answer labels,False
+P3a,correct answer is C,sp,C,letters,"[1959, 1234, 338, 315]","[""▁correct"", ""▁answer"", ""▁is"", ""▁C""]",47858,exact,ok: answer labels,False
+P3a,correct answer is C,nosp,C,letters,"[15728, 1234, 338, 315]","[""correct"", ""▁answer"", ""▁is"", ""▁C""]",759,exact,ok: answer labels,False
+P3a,correct answer is D,sp,D,letters,"[1959, 1234, 338, 360]","[""▁correct"", ""▁answer"", ""▁is"", ""▁D""]",36487,exact,ok: answer labels,False
+P3a,correct answer is D,nosp,D,letters,"[15728, 1234, 338, 360]","[""correct"", ""▁answer"", ""▁is"", ""▁D""]",944,exact,ok: answer labels,False
+P3a,correct answer is 1,sp,1,digits,"[1959, 1234, 338, 29871, 29896]","[""▁correct"", ""▁answer"", ""▁is"", ""▁"", ""1""]",25193,exact,FLAG: numeric values,False
+P3a,correct answer is 1,nosp,1,digits,"[15728, 1234, 338, 29871, 29896]","[""correct"", ""▁answer"", ""▁is"", ""▁"", ""1""]",242,exact,FLAG: numeric values,False
+P3a,correct answer is 2,sp,2,digits,"[1959, 1234, 338, 29871, 29906]","[""▁correct"", ""▁answer"", ""▁is"", ""▁"", ""2""]",14173,exact,FLAG: numeric values,False
+P3a,correct answer is 2,nosp,2,digits,"[15728, 1234, 338, 29871, 29906]","[""correct"", ""▁answer"", ""▁is"", ""▁"", ""2""]",187,exact,FLAG: numeric values,False
+P3a,correct answer is 3,sp,3,digits,"[1959, 1234, 338, 29871, 29941]","[""▁correct"", ""▁answer"", ""▁is"", ""▁"", ""3""]",10437,exact,FLAG: numeric values,False
+P3a,correct answer is 3,nosp,3,digits,"[15728, 1234, 338, 29871, 29941]","[""correct"", ""▁answer"", ""▁is"", ""▁"", ""3""]",54,exact,FLAG: numeric values,False
+P3a,correct answer is 4,sp,4,digits,"[1959, 1234, 338, 29871, 29946]","[""▁correct"", ""▁answer"", ""▁is"", ""▁"", ""4""]",9713,exact,FLAG: numeric values,False
+P3a,correct answer is 4,nosp,4,digits,"[15728, 1234, 338, 29871, 29946]","[""correct"", ""▁answer"", ""▁is"", ""▁"", ""4""]",37,exact,FLAG: numeric values,False
+P3b,correct option is A,sp,A,letters,"[1959, 2984, 338, 319]","[""▁correct"", ""▁option"", ""▁is"", ""▁A""]",3486,exact,ok: answer labels (solution pages),False
+P3b,correct option is A,nosp,A,letters,"[15728, 2984, 338, 319]","[""correct"", ""▁option"", ""▁is"", ""▁A""]",6,exact,ok: answer labels (solution pages),False
+P3b,correct option is B,sp,B,letters,"[1959, 2984, 338, 350]","[""▁correct"", ""▁option"", ""▁is"", ""▁B""]",3384,exact,ok: answer labels (solution pages),False
+P3b,correct option is B,nosp,B,letters,"[15728, 2984, 338, 350]","[""correct"", ""▁option"", ""▁is"", ""▁B""]",4,exact,ok: answer labels (solution pages),False
+P3b,correct option is C,sp,C,letters,"[1959, 2984, 338, 315]","[""▁correct"", ""▁option"", ""▁is"", ""▁C""]",3418,exact,ok: answer labels (solution pages),False
+P3b,correct option is C,nosp,C,letters,"[15728, 2984, 338, 315]","[""correct"", ""▁option"", ""▁is"", ""▁C""]",2,exact,ok: answer labels (solution pages),False
+P3b,correct option is D,sp,D,letters,"[1959, 2984, 338, 360]","[""▁correct"", ""▁option"", ""▁is"", ""▁D""]",3156,exact,ok: answer labels (solution pages),False
+P3b,correct option is D,nosp,D,letters,"[15728, 2984, 338, 360]","[""correct"", ""▁option"", ""▁is"", ""▁D""]",0,exact,ok: answer labels (solution pages),False
+P3b,correct option is 1,sp,1,digits,"[1959, 2984, 338, 29871, 29896]","[""▁correct"", ""▁option"", ""▁is"", ""▁"", ""1""]",287,exact,FLAG: mostly numeric values,False
+P3b,correct option is 1,nosp,1,digits,"[15728, 2984, 338, 29871, 29896]","[""correct"", ""▁option"", ""▁is"", ""▁"", ""1""]",1,exact,FLAG: mostly numeric values,False
+P3b,correct option is 2,sp,2,digits,"[1959, 2984, 338, 29871, 29906]","[""▁correct"", ""▁option"", ""▁is"", ""▁"", ""2""]",187,exact,FLAG: mostly numeric values,False
+P3b,correct option is 2,nosp,2,digits,"[15728, 2984, 338, 29871, 29906]","[""correct"", ""▁option"", ""▁is"", ""▁"", ""2""]",0,exact,FLAG: mostly numeric values,False
+P3b,correct option is 3,sp,3,digits,"[1959, 2984, 338, 29871, 29941]","[""▁correct"", ""▁option"", ""▁is"", ""▁"", ""3""]",214,exact,FLAG: mostly numeric values,False
+P3b,correct option is 3,nosp,3,digits,"[15728, 2984, 338, 29871, 29941]","[""correct"", ""▁option"", ""▁is"", ""▁"", ""3""]",1,exact,FLAG: mostly numeric values,False
+P3b,correct option is 4,sp,4,digits,"[1959, 2984, 338, 29871, 29946]","[""▁correct"", ""▁option"", ""▁is"", ""▁"", ""4""]",272,exact,FLAG: mostly numeric values,False
+P3b,correct option is 4,nosp,4,digits,"[15728, 2984, 338, 29871, 29946]","[""correct"", ""▁option"", ""▁is"", ""▁"", ""4""]",2,exact,FLAG: mostly numeric values,False
+P4,Answer: (A),sp,A,letters,"[673, 29901, 313, 29909, 29897]","[""▁Answer"", "":"", ""▁("", ""A"", "")""]",7073,exact,ok: answer keys,False
+P4,Answer: (A),nosp,A,letters,"[22550, 29901, 313, 29909, 29897]","[""Answer"", "":"", ""▁("", ""A"", "")""]",127493,exact,ok: answer keys,False
+P4,Answer: (B),sp,B,letters,"[673, 29901, 313, 29933, 29897]","[""▁Answer"", "":"", ""▁("", ""B"", "")""]",7971,exact,ok: answer keys,False
+P4,Answer: (B),nosp,B,letters,"[22550, 29901, 313, 29933, 29897]","[""Answer"", "":"", ""▁("", ""B"", "")""]",147303,exact,ok: answer keys,False
+P4,Answer: (C),sp,C,letters,"[673, 29901, 313, 29907, 29897]","[""▁Answer"", "":"", ""▁("", ""C"", "")""]",7793,exact,ok: answer keys,False
+P4,Answer: (C),nosp,C,letters,"[22550, 29901, 313, 29907, 29897]","[""Answer"", "":"", ""▁("", ""C"", "")""]",143936,exact,ok: answer keys,False
+P4,Answer: (D),sp,D,letters,"[673, 29901, 313, 29928, 29897]","[""▁Answer"", "":"", ""▁("", ""D"", "")""]",6423,exact,ok: answer keys,False
+P4,Answer: (D),nosp,D,letters,"[22550, 29901, 313, 29928, 29897]","[""Answer"", "":"", ""▁("", ""D"", "")""]",124280,exact,ok: answer keys,False
+P4,Answer: (1),sp,1,digits,"[673, 29901, 313, 29896, 29897]","[""▁Answer"", "":"", ""▁("", ""1"", "")""]",3612,exact,mixed: answer keys and prose enumerations,False
+P4,Answer: (1),nosp,1,digits,"[22550, 29901, 313, 29896, 29897]","[""Answer"", "":"", ""▁("", ""1"", "")""]",10151,exact,mixed: answer keys and prose enumerations,False
+P4,Answer: (2),sp,2,digits,"[673, 29901, 313, 29906, 29897]","[""▁Answer"", "":"", ""▁("", ""2"", "")""]",1503,exact,mixed: answer keys and prose enumerations,False
+P4,Answer: (2),nosp,2,digits,"[22550, 29901, 313, 29906, 29897]","[""Answer"", "":"", ""▁("", ""2"", "")""]",7049,exact,mixed: answer keys and prose enumerations,False
+P4,Answer: (3),sp,3,digits,"[673, 29901, 313, 29941, 29897]","[""▁Answer"", "":"", ""▁("", ""3"", "")""]",1311,exact,mixed: answer keys and prose enumerations,False
+P4,Answer: (3),nosp,3,digits,"[22550, 29901, 313, 29941, 29897]","[""Answer"", "":"", ""▁("", ""3"", "")""]",6874,exact,mixed: answer keys and prose enumerations,False
+P4,Answer: (4),sp,4,digits,"[673, 29901, 313, 29946, 29897]","[""▁Answer"", "":"", ""▁("", ""4"", "")""]",1142,exact,mixed: answer keys and prose enumerations,False
+P4,Answer: (4),nosp,4,digits,"[22550, 29901, 313, 29946, 29897]","[""Answer"", "":"", ""▁("", ""4"", "")""]",6267,exact,mixed: answer keys and prose enumerations,False
+P5,(A),sp,A,letters,"[313, 29909, 29897]","[""▁("", ""A"", "")""]",9278369,exact,"FLAG: mostly figure panels, math, chord sheets; few options",False
+P5,(A),nosp,A,letters,"[29898, 29909, 29897]","[""("", ""A"", "")""]",9428597,exact,"FLAG: mostly figure panels, math, chord sheets; few options",False
+P5,(B),sp,B,letters,"[313, 29933, 29897]","[""▁("", ""B"", "")""]",9145798,exact,"FLAG: mostly figure panels, math, chord sheets; few options",False
+P5,(B),nosp,B,letters,"[29898, 29933, 29897]","[""("", ""B"", "")""]",5918442,exact,"FLAG: mostly figure panels, math, chord sheets; few options",False
+P5,(C),sp,C,letters,"[313, 29907, 29897]","[""▁("", ""C"", "")""]",11156700,exact,"FLAG: mostly figure panels, math, chord sheets; few options",False
+P5,(C),nosp,C,letters,"[29898, 29907, 29897]","[""("", ""C"", "")""]",6280272,exact,"FLAG: mostly figure panels, math, chord sheets; few options",False
+P5,(D),sp,D,letters,"[313, 29928, 29897]","[""▁("", ""D"", "")""]",6284978,exact,"FLAG: mostly figure panels, math, chord sheets; few options",False
+P5,(D),nosp,D,letters,"[29898, 29928, 29897]","[""("", ""D"", "")""]",5009486,exact,"FLAG: mostly figure panels, math, chord sheets; few options",False
+P5,(1),sp,1,digits,"[313, 29896, 29897]","[""▁("", ""1"", "")""]",54996752,exact,FLAG: legal/list enumerations,False
+P5,(1),nosp,1,digits,"[29898, 29896, 29897]","[""("", ""1"", "")""]",29054143,exact,FLAG: legal/list enumerations,False
+P5,(2),sp,2,digits,"[313, 29906, 29897]","[""▁("", ""2"", "")""]",47760368,exact,FLAG: legal/list enumerations,False
+P5,(2),nosp,2,digits,"[29898, 29906, 29897]","[""("", ""2"", "")""]",21352734,exact,FLAG: legal/list enumerations,False
+P5,(3),sp,3,digits,"[313, 29941, 29897]","[""▁("", ""3"", "")""]",28393376,exact,FLAG: legal/list enumerations,False
+P5,(3),nosp,3,digits,"[29898, 29941, 29897]","[""("", ""3"", "")""]",14552921,exact,FLAG: legal/list enumerations,False
+P5,(4),sp,4,digits,"[313, 29946, 29897]","[""▁("", ""4"", "")""]",16274110,exact,FLAG: legal/list enumerations,False
+P5,(4),nosp,4,digits,"[29898, 29946, 29897]","[""("", ""4"", "")""]",8793015,exact,FLAG: legal/list enumerations,False
+P6dot,\nA.,nl,A,letters,"[13, 29909, 29889]","[""<0x0A>"", ""A"", "".""]",45476772,exact,FLAG: mostly interview Q&A turns ('A.' = Answer) plus some option lists,False
+P6dot,\nB.,nl,B,letters,"[13, 29933, 29889]","[""<0x0A>"", ""B"", "".""]",20826970,exact,FLAG: mostly interview Q&A turns ('A.' = Answer) plus some option lists,False
+P6dot,\nC.,nl,C,letters,"[13, 29907, 29889]","[""<0x0A>"", ""C"", "".""]",19691628,exact,FLAG: mostly interview Q&A turns ('A.' = Answer) plus some option lists,False
+P6dot,\nD.,nl,D,letters,"[13, 29928, 29889]","[""<0x0A>"", ""D"", "".""]",15317609,exact,FLAG: mostly interview Q&A turns ('A.' = Answer) plus some option lists,False
+P6dot,\n1.,nl,1,digits,"[13, 29896, 29889]","[""<0x0A>"", ""1"", "".""]",303268415,exact,FLAG: list numbering / rankings,False
+P6dot,\n2.,nl,2,digits,"[13, 29906, 29889]","[""<0x0A>"", ""2"", "".""]",293419398,exact,FLAG: list numbering / rankings,False
+P6dot,\n3.,nl,3,digits,"[13, 29941, 29889]","[""<0x0A>"", ""3"", "".""]",258821914,exact,FLAG: list numbering / rankings,False
+P6dot,\n4.,nl,4,digits,"[13, 29946, 29889]","[""<0x0A>"", ""4"", "".""]",204447166,exact,FLAG: list numbering / rankings,False
+P6par,\nA),nl,A,letters,"[13, 29909, 29897]","[""<0x0A>"", ""A"", "")""]",5783307,exact,"FLAG: mostly Q&A turns, some option lists",False
+P6par,\nB),nl,B,letters,"[13, 29933, 29897]","[""<0x0A>"", ""B"", "")""]",4366859,exact,"FLAG: mostly Q&A turns, some option lists",False
+P6par,\nC),nl,C,letters,"[13, 29907, 29897]","[""<0x0A>"", ""C"", "")""]",3539750,exact,"FLAG: mostly Q&A turns, some option lists",False
+P6par,\nD),nl,D,letters,"[13, 29928, 29897]","[""<0x0A>"", ""D"", "")""]",2697960,exact,"FLAG: mostly Q&A turns, some option lists",False
+P6par,\n1),nl,1,digits,"[13, 29896, 29897]","[""<0x0A>"", ""1"", "")""]",44275490,exact,FLAG: list numbering,False
+P6par,\n2),nl,2,digits,"[13, 29906, 29897]","[""<0x0A>"", ""2"", "")""]",42953670,exact,FLAG: list numbering,False
+P6par,\n3),nl,3,digits,"[13, 29941, 29897]","[""<0x0A>"", ""3"", "")""]",33010698,exact,FLAG: list numbering,False
+P6par,\n4),nl,4,digits,"[13, 29946, 29897]","[""<0x0A>"", ""4"", "")""]",21900007,exact,FLAG: list numbering,False

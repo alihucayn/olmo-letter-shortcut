@@ -1,0 +1,1 @@
+{"max_abs_diff_all_lp": 10.14548647403717, "mean_of_per_prompt_max": 3.4216948972829537, "mean_abs_diff_all": 1.2377029868522218, "n_prompts": 26009, "n_lp_cols": 21, "main_commit": "a1847dff35000b4271fa70afc5db10fd29fedbdf", "final_commit": "f83cd641d4f00954eb25c781e0ac360debb3239e"}

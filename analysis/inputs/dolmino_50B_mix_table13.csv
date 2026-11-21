@@ -1,0 +1,7 @@
+source,source_tokens_B,source_pct_50B,mix_pct_50B,subset
+Filtered DCLM,752.0,3.23,47.2,dclm
+Decontam. FLAN,17.0,50.0,16.6,flan
+StackExchange Q&A,1.26,100.0,2.45,stackexchange
+peS2o,58.6,5.15,5.85,pes2o
+Wikipedia/Wikibooks,3.7,100.0,7.11,wiki
+Dolmino Math,10.7,100.0,20.8,math (pooled)
