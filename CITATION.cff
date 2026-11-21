@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code or these results, please cite them as below."
+title: "When does OLMo 2 1B learn its answer-letter preference? Letter bias across training checkpoints, compared with answer-letter counts in the training data"
+type: software
+authors:
+  - family-names: Hussain
+    given-names: Ali
+    affiliation: "School of Electrical Engineering and Computer Science (SEECS), NUST"
+date-released: 2026-11-21
+version: 1.0.0
+license: MIT
+keywords:
+  - language models
+  - multiple-choice evaluation
+  - selection bias
+  - training dynamics
+  - OLMo
